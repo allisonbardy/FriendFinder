@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Friend Finder</title>
-
   <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,148 +11,165 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <link rel="icon" type="image/x-icon" href="../images/favicon.ico"/>
   <style>
-    body {background-image: url("../images/bg.jpg"); height: 100%; background-size: cover;}
-    h2   {color: rgba(48, 78, 250, 0.945);}
-    p    {color: black;}
-    a  {color: black;}
+      body {background-image: url("../images/bg.jpg"); height: 100%; background-size: cover;}
+      h2   {color: rgba(48, 78, 250, 0.945);}
+      p    {color: black;}
+      a  {color: black;}
   </style>
-
 </head>
+
 <body>
   <div class="container">
-
-    <div class="jumbotron">
-
-      
-
-      <h2 class="text-center"> <a href="./home.html" style="color: rgba(48, 78, 250, 0.945)"><span class="fa fa-users"></span> Friend Finder</a></h2>
-
+   <div class="jumbotron">
+    <h2 class="text-center"> <a href="./home.html" style="color: rgba(48, 78, 250, 0.945)"><span class="fa fa-users"></span> Friend Finder</a></h2>
     </div>
   </div>
-
-
 
   <div class="container">
-      <div class="jumbotron">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">About Me</h4><hr>
-          </div>
-          <div class="panel-body">
-
-            <form role="form">
-
-              <div class="form-group">
-                <label for="name">Your Name</label>
-                <input type="text" class="form-control" id="name">
-              </div>
-
-              <div class="form-group">
-                <label for="link">Link to Photo Image</label>
-                <input type="text" class="form-control" id="link">
-              </div>
-<br>
-              <div class="form-group">
-                <h4>Survey Questions</h4><hr>
-                <h5>1. You prefer the outdoors</h5>
-
-                      <input type="radio" name="q1" id="q1" value ="sa"> Strongly Agree<br>
-                      <input type="radio" name="q1" id="q1" value ="a"> Agree<br>
-                      <input type="radio" name="q1" id="q1" value ="i"> Inbetween<br>
-                      <input type="radio" name="q1" id="q1" value ="d"> Disagree<br>
-                      <input type="radio" name="q1" id="q1" value ="sd"> Strongly Disagree
-                  <br><br>
-
-                  <h5>2. On your day off, you would rather relax at home with a book or movie</h5>
-
-                  <input type="radio" name="q2" id="q2" value ="sa"> Strongly Agree<br>
-                  <input type="radio" name="q2" id="q2" value ="a"> Agree<br>
-                  <input type="radio" name="q2" id="q2" value ="i"> Inbetween<br>
-                  <input type="radio" name="q2" id="q2" value ="d"> Disagree<br>
-                  <input type="radio" name="q2" id="q2" value ="sd"> Strongly Disagree
-                  <br><br>
-                  <h5>3. You like living spontaneously</h5>
-
-                  <input type="radio" name="q3" id="q3" value ="sa"> Strongly Agree<br>
-                  <input type="radio" name="q3" id="q3" value ="a"> Agree<br>
-                  <input type="radio" name="q3" id="q3" value ="i"> Inbetween<br>
-                  <input type="radio" name="q3" id="q3" value ="d"> Disagree<br>
-                  <input type="radio" name="q3" id="q3" value ="sd"> Strongly Disagree
-                  <br><br>
-                  <h5>4. Your career is your main priority</h5>
-
-                  <input type="radio" name="q4" id="q4" value ="sa"> Strongly Agree<br>
-                  <input type="radio" name="q4" id="q4" value ="a"> Agree<br>
-                  <input type="radio" name="q4" id="q4" value ="i"> Inbetween<br>
-                  <input type="radio" name="q4" id="q4" value ="d"> Disagree<br>
-                  <input type="radio" name="q4" id="q4" value ="sd"> Strongly Disagree
-                  <br><br>
-                  <h5>5. You love going out and partying</h5>
-
-                  <input type="radio" name="q5" id="q5" value ="sa"> Strongly Agree<br>
-                  <input type="radio" name="q5" id="q5" value ="a"> Agree<br>
-                  <input type="radio" name="q5" id="q5" value ="i"> Inbetween<br>
-                  <input type="radio" name="q5" id="q5" alue ="d"> Disagree<br>
-                  <input type="radio" name="q5" id="q5" value ="sd"> Strongly Disagree
-                  <br><br>
-                  <h5>6. You enjoy traveling</h5>
-
-                  <input type="radio" name="q6" id="q6" value ="sa"> Strongly Agree<br>
-                  <input type="radio" name="q6" id="q6" value ="a"> Agree<br>
-                  <input type="radio" name="q6" id="q6" value ="i"> Inbetween<br>
-                  <input type="radio" name="q6" id="q6" value ="d"> Disagree<br>
-                  <input type="radio" name="q6" id="q6" value ="sd"> Strongly Disagree
-                  <br><br>
-                  <h5>7. You like playing video games</h5>
-
-                  <input type="radio" name="q7" id="q7" value ="sa"> Strongly Agree<br>
-                  <input type="radio" name="q7" id="q7" value ="a"> Agree<br>
-                  <input type="radio" name="q7" id="q7" value ="i"> Inbetween<br>
-                  <input type="radio" name="q7" id="q7" value ="d"> Disagree<br>
-                  <input type="radio" name="q7" id="q7" value ="sd"> Strongly Disagree
-                  <br><br>
-                  <h5>8. Financial success determines how happy you are</h5>
-
-                  <input type="radio" name="q8" id="q8" value ="sa"> Strongly Agree<br>
-                  <input type="radio" name="q8" id="q8" value ="a"> Agree<br>
-                  <input type="radio" name="q8" id="q8" value ="i"> Inbetween<br>
-                  <input type="radio" name="q8" id="q8" value ="d"> Disagree<br>
-                  <input type="radio" name="q8" id="q8" value ="sd"> Strongly Disagree
-                  <br><br>
-
-                  <h5>9. You are open to trying new food</h5>
-
-                  <input type="radio" name="q9" id="q9" value ="sa"> Strongly Agree<br>
-                  <input type="radio" name="q9" id="q9" value ="a"> Agree<br>
-                  <input type="radio" name="q9" id="q9" value ="i"> Inbetween<br>
-                  <input type="radio" name="q9" id="q9" value ="d"> Disagree<br>
-                  <input type="radio" name="q9" id="q9" value ="sd"> Strongly Disagree
-                  <br><br>
-                    </div>
-
-
-              </div>
-              <button type="submit" class="btn btn-primary submit">Submit</button>
-            </form>
-
-          </div>
+    <div class="jumbotron">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">About Me</h4><hr>
         </div>
 
+        <div class="panel-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="name">Your Name (Required)</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="link">Link to Photo Image (Required)</label>
+              <input type="text" class="form-control" id="link" required>
+            </div>
+              
+            <br>
+
+            <div class="form-group">
+              <h4>Survey</h4>
+              <hr>
+                <p>1. Your mind is always buzzing with unexplored ideas and plans.</p>
+                  <select class="chosen-select" id="q1">
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                  </select>
+                  <br><br>
+
+                  <p>2. Generally speaking, you rely more on your experience than your imagination.</p>
+                  <select class="chosen-select" id="q2">
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                  </select>
+                  <br><br>
+
+                  <p>3. You find it easy to stay relaxed and focused even when there is some pressure.</p>
+                  <select class="chosen-select" id="q3">
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                  </select>
+                  <br><br>
+
+                  <p>4. You rarely do something just out of sheer curiosity.</p>
+                  <select class="chosen-select" id="q4">
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                  </select>
+                  <br><br>
+
+                  <p>5. People can rarely upset you.</p>
+                  <select class="chosen-select" id="q5">
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                  </select>
+                  <br><br>
+
+                  <p>6. It is often difficult for you to relate to other people’s feelings.</p>
+                  <select class="chosen-select" id="q6">
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                  </select>
+                  <br><br>
+
+                  <p>7. In a discussion, truth should be more important than people’s sensitivities.</p>
+                  <select class="chosen-select" id="q7">
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                  </select>
+                  <br><br>
+
+                  <p>8. You rarely get carried away by fantasies and ideas.</p>
+                  <select class="chosen-select" id="q8">
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                  </select>
+                  <br><br>
+
+                  <p>9. You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
+                  <select class="chosen-select" id="q9">
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                  </select>
+                  <br><br>
+
+                  <p>10. You feel more energetic after spending time with a group of people.</p>
+                  <select class="chosen-select" id="q10">
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                  </select>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary submit">Submit</button>
+          </form>
       </div>
     </div>
   </div>
+
+<footer class="footer">
+  <div class="container">
+    <p><a href="/api/survey">API Link</a></p>
   </div>
-
-
-    <footer class="footer">
-      
-      <div class="container">
-        <p><a href="/api/survey">API Link</a></p>
-      </div>
-    </footer>
-
-  </div>
-
+</footer>
 </body>
 </html>
 
@@ -169,18 +186,26 @@
 
       // Here we grab the form elements
       var newSurvey = {
-        Name: $("#name").val().trim(),
-        Link: $("#link").val().trim(),
-        q1: $("#q1").val().trim(),
-        q2: $("#q2").val().trim(),
-        q3: $("#q3").val().trim(),
-        q4: $("#q4").val().trim(),
-        q5: $("#q5").val().trim(),
-        q6: $("#q6").val().trim(),
-        q7: $("#q7").val().trim(),
-        q8: $("#q8").val().trim(),
-        q9: $("#q9").val().trim(),
+        name: $("#name").val().trim(),
+        link: $("#link").val().trim(),
+        scores: [
+        $("#q1").val().trim(),
+        $("#q2").val().trim(),
+        $("#q3").val().trim(),
+        $("#q4").val().trim(),
+        $("#q5").val().trim(),
+        $("#q6").val().trim(),
+        $("#q7").val().trim(),
+        $("#q8").val().trim(),
+        $("#q9").val().trim(),
+        $("#q10").val().trim(),
+      ]
       };
+      // var newSurvey = {
+      //   name: "hello",
+      //   link: 'url',
+      //   scores: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2]
+      // }
       console.log(newSurvey);
 
       // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
@@ -189,29 +214,11 @@
 
       $.post("/api/survey", newSurvey,
         function(data) {
-
+// console.log(data);
           if (data) { 
-            alert("We found a match!");
+            alert("We found a match!\n Name: " + data.name + "\nPhoto link: " + data.link);
           };
-
-
-
-          // Clear the form when submitting
-
-          $("#name").val("");
-          $("#link").val("");
-          $("#q1").val("");
-          $("#q2").val("");
-          $("#q3").val("");
-          $("#q4").val("");
-          $("#q5").val("");
-          $("#q6").val("");
-          $("#q7").val("");
-          $("#q8").val("");
-          $("#q9").val("");
-
         });
-
     });
 
 </script>

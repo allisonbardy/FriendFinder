@@ -1,23 +1,11 @@
-// ===============================================================================
-// DATA
-// Below data will hold all of the user information
-// ===============================================================================
-
-var tableArray = [
+// Store data in array of objects
+var surveyData = [
   {
-    Name: "Allison",
-    Link: "unavailable",
-    q1: "sa",
-    q2: "a",
-    q3: "d",
-    q4: "sd",
-    q5: "sd",
-    q6: "sd",
-    q7: "a",
-    q8: "i",
-    q9: "d",
+    name: "Allison",
+    link: "unavailable",
+    scores: [3, 3, 3, 3, 3, 3, 3, 3, 3]
   }
 ];
 
-// Export the array. This makes it accessible to other files using require.
-module.exports = tableArray;
+// Export the array
+module.exports = surveyData;
