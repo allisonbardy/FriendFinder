@@ -10,5 +10,5 @@ In Terminal, enter: <br>
 
 ## DEMO
  
- Deplyed to Heroku. Visit: 
+ Deplyed to Heroku. Visit: https://peaceful-beyond-93100.herokuapp.com/
 
